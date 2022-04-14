@@ -8,6 +8,7 @@ import LinksBoard from "$lib/LinksBoard.svelte";
 
 <body class="bg-black text-white text-center flex flex-col font-heebo">
   <ConnectButton />
+<section dir="rtl">
   <h1 class="text-center text-white p-12 mt-2 text-6xl">האפיקומן</h1>
   <h1 class="text-center text-white text-3xl">של קהילת ווב3</h1>
    <h1 class="text-center text-white text-2xl">אז איך זה עובד?</h1>
@@ -24,6 +25,7 @@ import LinksBoard from "$lib/LinksBoard.svelte";
     </div>
   {/if}
   <Dashboard />
+</section>
   <LinksBoard/>
   <div class="fixed bottom-0 p-2 m-auto text-center text-gray-400 text-sm italic flex space-x-6">
       <div class="">
